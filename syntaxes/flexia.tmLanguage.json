@@ -1,0 +1,63 @@
+{
+  "scopeName": "source.flexia",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash.flexia",
+      "match": "//.*"
+    },
+    {
+      "name": "comment.line.angle.flexia",
+      "begin": "</",
+      "end": "/>",
+      "patterns": [
+        {
+          "name": "comment.content.flexia",
+          "match": ".+"
+        }
+      ]
+    },
+    {
+      "name": "keyword.control.flexia",
+      "match": "\\b(Function|While|If|Return|Else|For|Class|New)\\b"
+    },
+    {
+      "name": "storage.type.flexia",
+      "match": "\\b(int|float|double|void|string|char|bool)\\b"
+    },
+    {
+      "name": "constant.language.flexia",
+      "match": "\\b(true|false|null)\\b"
+    },
+    {
+      "name": "constant.numeric.flexia",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "string.quoted.double.flexia",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.flexia",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "entity.name.function.flexia",
+      "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*(?=\\()"
+    },
+    {
+      "name": "variable.other.flexia",
+      "match": "\\b[a-z_][a-zA-Z0-9_]*\\b"
+    },
+    {
+      "name": "keyword.operator.flexia",
+      "match": "(==|!=|\\+\\+|--|\\+|-|\\*|/|%|=|<|>|&&|\\|\\||!)"
+    },
+    {
+      "name": "punctuation.flexia",
+      "match": "[(){};.,]"
+    }
+  ]
+}

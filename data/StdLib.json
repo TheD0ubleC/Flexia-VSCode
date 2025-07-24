@@ -1,0 +1,438 @@
+[
+  {
+    "name": "bool.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "char.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "double.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "float.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "int.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Console.Clear",
+    "parameters": [],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Console.Print",
+    "parameters": [],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Console.PrintLine",
+    "parameters": [],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Console.ReadKey",
+    "parameters": [],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Console.ReadLine",
+    "parameters": [],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Console.SetCursorPosition",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.File.FileRead",
+    "parameters": [
+      "path"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.File.FileWrite",
+    "parameters": [
+      "path",
+      "content"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Math.Abs",
+    "parameters": [
+      "x"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Math.Clamp",
+    "parameters": [
+      "value",
+      "min",
+      "max"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Math.Max",
+    "parameters": [
+      "a",
+      "b"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Math.Min",
+    "parameters": [
+      "a",
+      "b"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Math.Sign",
+    "parameters": [
+      "x"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Time.Sleep",
+    "parameters": [
+      "time"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Type.bool.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.char.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.double.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.float.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.int.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Contains",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.EndsWith",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.IndexOf",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.IsEmpty",
+    "parameters": [
+      "s"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Type.string.LastIndexOf",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Len",
+    "parameters": [
+      "s"
+    ],
+    "source": "Flexia"
+  },
+  {
+    "name": "IO.Type.string.Length",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Replace",
+    "parameters": [
+      "p0",
+      "p1",
+      "p2"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Split",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.StartsWith",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Substring",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Substring",
+    "parameters": [
+      "p0",
+      "p1",
+      "p2"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.ToLower",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.ToUpper",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.Trim",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.TrimEnd",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.TrimStart",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Type.string.TypeOf",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "IO.Windows.CallDLL",
+    "parameters": [],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Contains",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.EndsWith",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.IndexOf",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.LastIndexOf",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Length",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Replace",
+    "parameters": [
+      "p0",
+      "p1",
+      "p2"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Split",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.StartsWith",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Substring",
+    "parameters": [
+      "p0",
+      "p1"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Substring",
+    "parameters": [
+      "p0",
+      "p1",
+      "p2"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.ToLower",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.ToString",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.ToUpper",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.Trim",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.TrimEnd",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  },
+  {
+    "name": "string.TrimStart",
+    "parameters": [
+      "p0"
+    ],
+    "source": "CSharp"
+  }
+]

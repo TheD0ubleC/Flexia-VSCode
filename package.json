@@ -1,0 +1,38 @@
+{
+  "name": "flexia-vscode",
+  "displayName": "Flexia Language Support",
+  "description": "Syntax highlighting, definitions, and IntelliSense for .fx files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Programming Languages"],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "flexia",
+        "aliases": ["Flexia"],
+        "extensions": [".fx"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "flexia",
+        "scopeName": "source.flexia",
+        "path": "./syntaxes/flexia.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0",
+    "vscode": "^1.80.0"
+  }
+}
