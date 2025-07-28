@@ -7,18 +7,18 @@
     },
     {
       "name": "comment.line.angle.flexia",
-      "begin": "</",
-      "end": "/>",
+      "begin": "</\\s*",
+      "end": "\\s*/>",
       "patterns": [
         {
           "name": "comment.content.flexia",
-          "match": ".+"
+          "match": "[^\n]+"
         }
       ]
     },
     {
       "name": "keyword.control.flexia",
-      "match": "\\b(Function|While|If|ElseIf|Else|For|Break|Return|Class|New)\\b"
+      "match": "\\b(Function|While|If|ElseIf|Else|For|Break|Return|Class|New|Switch|Case|Default|Continue|Try|Catch|Finally|Throw)\\b"
     },
     {
       "name": "storage.type.flexia",
@@ -57,6 +57,10 @@
     {
       "name": "entity.name.function.flexia",
       "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*(?=\\()"
+    },
+    {
+      "name": "support.function.flexia",
+      "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\.[A-Za-z_][A-Za-z0-9_]*\\b"
     },
     {
       "name": "variable.other.flexia",

@@ -2,8 +2,6 @@
 
 All notable changes to the "Flexia" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
-
-- Initial release
+- Improved syntax highlighting and comment detection
+- Added built-in Flexia Dark theme
