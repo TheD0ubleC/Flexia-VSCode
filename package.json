@@ -24,6 +24,13 @@
         "scopeName": "source.flexia",
         "path": "./syntaxes/flexia.tmLanguage.json"
       }
+    ],
+    "themes": [
+      {
+        "label": "Flexia Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flexia-color-theme.json"
+      }
     ]
   },
   "scripts": {

@@ -1,0 +1,39 @@
+{
+  "name": "Flexia Dark",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": ["comment.line.double-slash.flexia", "comment.line.angle.flexia", "comment.content.flexia"],
+      "settings": { "foreground": "#6A9955" }
+    },
+    {
+      "scope": "keyword.control.flexia",
+      "settings": { "foreground": "#C586C0" }
+    },
+    {
+      "scope": "storage.type.flexia",
+      "settings": { "foreground": "#569CD6" }
+    },
+    {
+      "scope": "constant.language.flexia",
+      "settings": { "foreground": "#D16969" }
+    },
+    {
+      "scope": ["string.quoted.double.flexia", "string.quoted.single.flexia"],
+      "settings": { "foreground": "#CE9178" }
+    },
+    {
+      "scope": "constant.numeric.flexia",
+      "settings": { "foreground": "#B5CEA8" }
+    },
+    {
+      "scope": "entity.name.function.flexia",
+      "settings": { "foreground": "#4FC1FF" }
+    },
+    {
+      "scope": "support.function.flexia",
+      "settings": { "foreground": "#DCDCAA" }
+    }
+  ]
+}
