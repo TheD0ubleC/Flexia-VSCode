@@ -18,8 +18,13 @@ export function activate(context: vscode.ExtensionContext) {
             {
                 provideCompletionItems(doc, position) {
                     /* ① 当前光标所在的“可补全单词”(含点) 的范围+文本 */
-                    const range = doc.getWordRangeAtPosition(position, /[\w\.]+/);
+                    const range = doc.getWordRangeAtPosition(position, /[A-Za-z0-9_\.]+/);
                     const prefix = range ? doc.getText(range) : '';
+
+                    const lineText = doc.lineAt(position.line).text.slice(0, position.character);
+                    const inString = (lineText.split('"').length % 2 === 0 ? false : true) ||
+                                      (lineText.split("'").length % 2 === 0 ? false : true);
+                    if (inString) return [];
 
                     /* ② 本文件符号 ➜ CompletionItem */
                     const locals = analyzeDocument(doc).map(sym => {
@@ -42,7 +47,7 @@ export function activate(context: vscode.ExtensionContext) {
                     return [...locals, ...stds];
                 }
             },
-            '.', '(', '<', ...'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'   // 触发字符
+            '.', '(', '<', "'", '"', ...'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'   // 触发字符
         )
     );
 
