@@ -11,7 +11,7 @@ export function analyzeDocument(doc: vscode.TextDocument): SymbolInfo[] {
 
   const functionRegex = /\bFunction\s+([A-Za-z_][A-Za-z0-9_]*)/g;
   const classRegex = /\bClass\s+([A-Za-z_][A-Za-z0-9_]*)/g;
-  const varRegex = /\b(?:int|float|double|string|bool|char|var)\s+([a-z_][a-zA-Z0-9_]*)\b/g;
+  const varRegex = /\b(?:int|float|double|string|bool|char|var)\s+([A-Za-z_][A-Za-z0-9_]*)\b/g;
 
   for (let line = 0; line < doc.lineCount; line++) {
     const text = doc.lineAt(line).text;

@@ -18,7 +18,7 @@
     },
     {
       "name": "keyword.control.flexia",
-      "match": "\\b(Function|While|If|Return|Else|For|Class|New)\\b"
+      "match": "\\b(Function|While|If|ElseIf|Else|For|Break|Return|Class|New)\\b"
     },
     {
       "name": "storage.type.flexia",
@@ -36,6 +36,17 @@
       "name": "string.quoted.double.flexia",
       "begin": "\"",
       "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.flexia",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "string.quoted.single.flexia",
+      "begin": "'",
+      "end": "'",
       "patterns": [
         {
           "name": "constant.character.escape.flexia",
